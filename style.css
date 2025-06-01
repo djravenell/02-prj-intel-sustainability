@@ -164,16 +164,10 @@ section > div h2, section > div h3 {
   letter-spacing: 0.2px;
 }
 
-/* Make the info paragraph even more visible on small screens */
+/* Hide the info paragraph on small screens */
 @media (max-width: 700px) {
   .timeline-info {
-    font-size: 1.22em;
-    background: #e3f0fb;
-    padding: 14px 10px;
-    border-radius: 10px;
-    margin: 18px 8px 26px 8px;
-    color: #003865;
-    font-weight: 600;
+    display: none;
   }
 }
 
